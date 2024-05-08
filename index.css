@@ -1,0 +1,48 @@
+.nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 45px;
+    background: #f5f7fa;
+}
+.mid-section{
+    display: flex;
+    gap: 25px;
+    font-weight: 500;
+    font-size: 14px;
+    justify-content: center;
+    align-items: center;
+}
+.mid-section > p{
+    color: #4d4d4d;
+    font-size: 18px;
+}
+.hero-section{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 90px;
+    padding-bottom: 90px;
+    background-color: #f5f7fa;
+}
+.hero-section > div > h1{
+    color: #4d4d4d;
+    font-weight: bolder;
+    font-size: 45px;
+}
+.client{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.member{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.member2{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    /*gap: 30px;*/
+}
