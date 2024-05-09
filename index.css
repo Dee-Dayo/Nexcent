@@ -48,17 +48,60 @@
 .section2{
     display: flex;
     gap: 40px;
-    padding: 10%;
+    padding: 10% 10% 5%;
 }
 .section3{
     display: flex;
-    /*justify-content: center;*/
+    justify-content: space-between;
     gap: 40px;
-    padding: 10%;
+    padding: 3% 10%;
     background: #f5f7fa;
 }
 .new{
     display: grid;
-    gap: 20px;
+    gap: 30px;
     grid-template-columns: repeat(2, 1fr);
+}
+.section4{
+    display: flex;
+    gap: 40px;
+    padding: 10% 10% 5%;
+}
+.section5{
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+    padding: 5% 10% 5%;
+    background: #f5f7fa;
+}
+.footer{
+    background: #263238;
+    padding: 4%;
+    display: flex;
+    color: white;
+    justify-content: space-around;
+    gap: 20%;
+}
+.footer-sider{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: space-evenly;
+}
+.footer-sider > p{
+    display: block;
+}
+input::placeholder{
+    color: white;
+}
+.input{
+    width: 100%;
+    padding: 10px 15px;
+    border-radius: 8px;
+    border: none;
+    background: #515b60;
+}
+.image{
+    position: relative;
+    left: 190px;
+    top: -27px;
 }
