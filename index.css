@@ -2,7 +2,7 @@
     display: flex;
     justify-content: space-between;
     padding: 0 45px;
-    background: #f5f7fa;
+    /*margin-top: 10px;*/
 }
 .mid-section{
     display: flex;
@@ -14,73 +14,38 @@
 }
 .mid-section > p{
     color: #4d4d4d;
-    font-size: 18px;
+    font-size: 16px;
 }
 .hero-section{
     display: flex;
     justify-content: space-around;
     padding-top: 90px;
-    padding-bottom: 90px;
-    background-color: #f5f7fa;
 }
-.hero-section > div > h1{
+.hero-section> div > h1{
     color: #4d4d4d;
     font-weight: bolder;
     font-size: 45px;
+
 }
 .client{
     display: flex;
-    flex-direction: column;
     align-items: center;
-    margin-bottom: 20px;
+    flex-direction: column;
 }
 .member{
     display: flex;
     flex-direction: column;
-    align-items: center;
     justify-content: center;
-}
-.member2{
-    display: flex;
     align-items: center;
-    justify-content: space-evenly;
 }
-.section2{
-    display: flex;
-    gap: 40px;
-    padding: 10% 10% 5%;
-}
-.section3{
-    display: flex;
-    justify-content: space-between;
-    gap: 40px;
-    padding: 3% 10%;
-    background: #f5f7fa;
+.member > p{
+    font-weight: bolder;
+    font-size: 20px;
+    margin-bottom: 0;
 }
 .new{
     display: grid;
-    gap: 30px;
     grid-template-columns: repeat(2, 1fr);
-}
-.section4{
-    display: flex;
-    gap: 40px;
-    padding: 10% 10% 5%;
-}
-.section5{
-    display: flex;
-    justify-content: center;
-    gap: 60px;
-    padding: 5% 10% 5%;
-    background: #f5f7fa;
-}
-.footer{
-    background: #263238;
-    padding: 4%;
-    display: flex;
-    color: white;
-    justify-content: space-around;
-    gap: 20%;
 }
 .footer-sider{
     display: grid;
@@ -96,12 +61,72 @@ input::placeholder{
 .input{
     width: 100%;
     padding: 10px 15px;
-    border-radius: 8px;
+    border-radius: 3px;
     border: none;
     background: #515b60;
 }
 .image{
     position: relative;
-    left: 190px;
+    left: 205px;
     top: -27px;
+}
+.member2{
+    display: flex;
+    align-items: center;
+    gap: 20px
+}
+.section3{
+    display: flex;
+    gap: 40px;
+    padding: 10%;
+}
+.footer{
+    background: #263238;
+    padding: 4% 0;
+    display: flex;
+    color: white;
+    justify-content: space-around;
+    gap: 20%;
+
+}
+.section2{
+    display: flex;
+    gap: 40px;
+    padding: 10%;
+}
+.section4{
+    display: flex;
+    gap: 40px;
+    padding: 10%;
+}
+@media only screen and (max-width: 728px) {
+    .nav{
+        display: none;
+    }
+    .hero-section > img{
+        display: none;
+    }
+    .member2{
+    flex-direction: column;
+    }
+    .section2 >img{
+    display: none;
+    }
+    .section3{
+    flex-direction: column;
+    }
+    .section4 > img{
+    display: none;
+    }
+    .footer{
+    flex-direction: column;
+    padding: 20px;
+    }
+    .input{
+    width: 70%;
+    }
+    .image{
+    left: -31px;
+    top: 4px;
+    }
 }
